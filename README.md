@@ -1,8 +1,10 @@
 # Build a Cairn
 
-Read [What Cairn is](WHAT-CAIRN-IS.md) before you install anything. Cairn is the thread and the store. The model and the harness are replaceable.
+Point your agent at [AGENT.md](AGENT.md). That file tells the agent how to walk [the map](MAP.md) and build a Cairn in your project, not a copy of someone else's.
 
-You will have a project directory with a continuity store beside the work it describes. An agent you choose can read that store on the next session. This kit does not install an agent, a model, or a server for you.
+Read [What Cairn is](WHAT-CAIRN-IS.md) if you want the definition first. Credits for borrowed ideas are in [CREDITS.md](CREDITS.md).
+
+You will have a project directory with a continuity store beside the work it describes. An agent you choose can read that store on the next session. This package does not install an agent, a model, or a server for you.
 
 The license is public and noncommercial. See `LICENSE`.
 
