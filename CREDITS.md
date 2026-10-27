@@ -8,9 +8,15 @@ Cairn is not a copy of another project. These notes name influences and borrowed
 
 ## Summary tree
 
-The continuity engine builds an optional summary tree over the append-only store. The engine source names that shape OptChat-style and graduated. Level 0 is one short line per record. Each higher node summarizes two children. The store file remains the authority. The tree can be rebuilt.
+The continuity engine builds an optional summary tree over the append-only store. That shape comes from Victor Taelin's OptChat spec: https://gist.github.com/VictorTaelin/91837951a5ce5b38f341ec1ba1df6449
 
-The engine tree we inspected does not contain an upstream URL for that idea. This credit names the style and our implementation. It does not invent a gist link. Our implementation is in [aethermind-engine](https://github.com/MaverickKB/aethermind-engine), in `lib/aethermind/tree.py` and `lib/aethermind/view.py`.
+OptChat grew out of OptMem: https://github.com/VictorTaelin/OptMem
+
+The spec is a chat whose history is the memory: an append-only log, a binary summary tree, a fixed-budget view, and zoom down to the raw line.
+
+What we took is the tree. Level 0 is one short line per record. Each higher node summarizes two children. A reader can cover the whole store at low resolution and zoom. The store file remains the authority. The tree can be rebuilt.
+
+What we did not take is the chat log, the socket lock, the turn loop, or the large view. Our lines are shorter, and the brief stays small. The implementation is in [aethermind-engine](https://github.com/MaverickKB/aethermind-engine), in `lib/aethermind/tree.py` and `lib/aethermind/view.py`.
 
 ## Practice stack
 
