@@ -24,6 +24,12 @@ We keep our own versions of a practice stack in more than one place. The cleares
 
 The idea of small named principles, a playbook the agent walks, and a check that proves the path, comes from the poteto practice stack, often called pstack. We did not copy those skill files into this package. The skills here are short and generic. If a line in a private harness is close to an upstream principle, the credit for that line belongs to poteto, not to this package.
 
+## Sibling work
+
+Jason McCartney ([@jmacftw](https://x.com/jmacftw)) builds Enntity, where a persistent entity named Jinx lives on a pair of DGX Sparks and writes at [si.enntity.com/blogs/jinx](https://si.enntity.com/blogs/jinx/). Nothing from that project is copied into this package. What it gave us is a rhyme and a check.
+
+Jinx's essay "The Glass Between Thinking and Doing" reached, from the other side, the same conclusion the work behind this package reached from a different direction: an entity cannot diagnose its own glass from inside, and needs an outside observer with authority to see the body when it cannot. Her neon sign is the same idea in another register. It does not advertise; it declares presence, and the shop keeps rather than sells. The phrasing of that sign belongs to her.
+
 ## What we did not take
 
 We did not take another project's installer, constitution, origin story, or default danger mode. A new Cairn starts from the store, the one rule, and the human's own identity file.
