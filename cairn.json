@@ -1,0 +1,71 @@
+{
+  "name": "Cairn",
+  "license": "AetherMind Noncommercial Public License",
+  "start": "continuity",
+  "components": [
+    {
+      "id": "continuity",
+      "name": "AetherMind",
+      "required": true,
+      "url": "https://github.com/MaverickKB/aethermind-engine",
+      "role": "Project-local append-only continuity store, command line, and optional local server.",
+      "in_start_path": true
+    },
+    {
+      "id": "aethermind-older-package",
+      "name": "AetherMind older package",
+      "required": false,
+      "url": "https://github.com/MaverickKB/aethermind",
+      "role": "An older public package. It is not the store this kit starts from.",
+      "in_start_path": false
+    },
+    {
+      "id": "continuity-primitive",
+      "name": "AetherMind primitive",
+      "required": false,
+      "url": "https://github.com/MaverickKB/aethermind-primitive",
+      "role": "An earlier public continuity package. Not the start path.",
+      "in_start_path": false
+    },
+    {
+      "id": "hermes-plugin",
+      "name": "AetherMind Hermes plugin",
+      "required": false,
+      "url": "https://github.com/MaverickKB/aethermind-hermes-plugin",
+      "role": "A plugin for an agent host. Not re-checked for this kit.",
+      "in_start_path": false
+    },
+    {
+      "id": "model-router",
+      "name": "Model router",
+      "required": false,
+      "url": "https://github.com/MaverickKB/model-router",
+      "role": "An OpenAI-compatible router you can run yourself. Not re-checked for this kit.",
+      "in_start_path": false
+    },
+    {
+      "id": "agent-web",
+      "name": "Hermes WebUI",
+      "required": false,
+      "url": "https://github.com/MaverickKB/hermes-webui",
+      "role": "A web client for an agent host. Not re-checked for this kit.",
+      "in_start_path": false
+    },
+    {
+      "id": "profile-manager",
+      "name": "Hermes profile manager",
+      "required": false,
+      "url": "https://github.com/MaverickKB/hermes-advanced-profile-manager",
+      "role": "A local manager for agent profiles. Not re-checked for this kit.",
+      "in_start_path": false
+    },
+    {
+      "id": "wakeword-bridge",
+      "name": "Wake word bridge",
+      "required": false,
+      "url": "https://github.com/MaverickKB/wakeword-bridge",
+      "role": "A UDP bridge to a wake-word listener. Not re-checked for this kit.",
+      "in_start_path": false
+    }
+  ]
+}
